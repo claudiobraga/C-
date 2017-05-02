@@ -1,0 +1,19 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    
+    int n, n1, n2;
+    
+    /* Read input from STDIN */
+    cin >> n >> n1 >> n2;
+       
+    /* Print output to STDOUT */   
+    cout << (n + n1 + n2) << endl;
+    return 0;
+}
